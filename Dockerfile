@@ -5,5 +5,4 @@ ENV TZ=Asia/Kolkata
 RUN yarn install --network-concurrency 1
 RUN yarn add express
 CMD ["node", "index.js"]
-WORKDIR /railway/Raganork/plugins
 CMD ["node", "server.js"]
