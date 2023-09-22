@@ -1,6 +1,6 @@
 const axios = require("axios");
 const express = require("express");
-const { Module} = require("../main");
+const { Module} = require("./main");
 const app = express();
 const port = 3000;
 Module({on: 'message', fromMe: false}, async (m) => {   
